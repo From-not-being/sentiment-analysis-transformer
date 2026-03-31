@@ -2,6 +2,6 @@
 
 a python script with simulated product review data
 
-estimating sentiment about a product with recommended improvement
+estimates the cause of the sentiment about a product and recommends improvement
 
 pandas and huggingface transformers 
