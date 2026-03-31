@@ -1,4 +1,4 @@
-# Sentiment & Reviews Analysis
+# sentiment and reviews analysis
 
 import pandas as pd
 from transformers import pipeline
@@ -6,11 +6,11 @@ from transformers import pipeline
 # 1. Daten-Simulation (Rakuten Ichiba Style)
 data = {
     'review_text': [
-        "Der Versand war extrem schnell, danke Rakuten!",
-        "Das Produkt kam beschädigt an. Sehr enttäuschend.",
-        "価格は安かったですが、配送が遅れました。", # Japanisch: Preis war gut, Versand spät.
-        "Amazing quality, will buy again."
-    ],
+            "Der Versand war extrem schnell, danke Rakuten!",
+            "Das Produkt kam beschädigt an. Sehr enttäuschend.",
+            "価格は安かったですが、配送が遅れました。", # Japanisch: Preis war gut, Versand spät.
+            "Amazing quality, will buy again."
+            ],
     'category': ['Logistics', 'Quality', 'Logistics', 'General']
 }
 df = pd.DataFrame(data)
