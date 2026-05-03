@@ -1,7 +1,7 @@
 # sentiment-analysis-transformer
 
-a python script with simulated product review data
+° a python script with simulated product review data
 
-estimates the cause of the sentiment about a product and recommends improvement
+° estimates the cause of the sentiment about a product and recommends improvement
 
-pandas and huggingface transformers 
+° pandas and huggingface transformers 
